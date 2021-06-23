@@ -8,7 +8,7 @@
 	<name>AAA - Arkanos Advanced Archery</name>
 	<url>https://localhost/</url>
 	<properties>
-		<jettyVersion>9.4.28.v20200408</jettyVersion>
+		<jettyVersion>9.4.41.v20210516</jettyVersion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
