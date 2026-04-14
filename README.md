@@ -11,6 +11,7 @@ The application supports English and German and was used personally by the autho
 ## Table of Contents
 
 - [Features](#features)
+- [Screenshots](#screenshots)
 - [Running Locally](#running-locally)
 - [Architecture](#architecture)
 - [Code Quality](#code-quality)
@@ -30,6 +31,40 @@ The application supports English and German and was used personally by the autho
 - **Strength tracking** – record physical conditioning exercises
 - **Reports** – monthly summary reports and a homescreen dashboard with SVG graphs
 - **Multi-language** – English and German
+
+---
+
+## Screenshots
+
+### Login
+
+![Login screen](screenshots/login.png)
+
+The login card is presented on first load. The user enters their e-mail address and password; the password is hashed with MD5 client-side before being sent to the server.
+
+### Home Dashboard
+
+![Home dashboard](screenshots/dashboard.png)
+
+After login the dashboard shows: upcoming events, active-season week-by-week arrow-count vs. plan bars, recent tasks, and a year-to-date monthly arrow-count summary. All charts are rendered as inline SVG.
+
+### Training Entry
+
+![Training entry form](screenshots/training-entry.png)
+
+The training management screen lets users log a new session by selecting the date, arrow count, distance, and technique type (warm-up, target, blank-board, warm-out). A separate "New gauged training" flow records a full scored round end-by-end.
+
+### Profile Management
+
+![Profile management — events, seasons, tasks, and inventory](screenshots/profile-management.png)
+
+The profile page groups all non-training data in one place: upcoming and past competitions, archery seasons with weekly arrow-count targets, an open/closed task list for technique goals, and the equipment inventory (bows with draw weight, arms length, and arrow model).
+
+### Monthly Performance Report
+
+![Monthly performance report — July 2015](screenshots/monthly-report.png)
+
+The performance history view shows a month-by-week breakdown of total arrows shot vs. the season plan, technique distribution, and gauged-round scores at each distance — all rendered as SVG charts. The month and year can be changed with the dropdowns in the top-right corner.
 
 ---
 
